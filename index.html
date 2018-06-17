@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en" class=""><head>
     <meta charset="UTF-8">
-    <title>龙行伟</title>
+    <title>简历生成器</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
@@ -12,193 +9,152 @@
     <script src="static/js/script.js"></script>
 </head>
 
-<body>
+<body style="padding-right: 0px;">
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <div class="portrait"></div>
-                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                    <h3>请输入图片URL地址：</h3>
-                    <br/>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div>
-                <h1 id="username" >ekCit</h1>
-                <h4 id="persona-tag" >Python / Web / 互联网教育</h4>
+                <div class="portrait" style="background-image: url(&quot;https://i.loli.net/2018/06/17/5b265f54df1e5.jpg&quot;);"></div>
+                
+                <h1 id="username" contenteditable="true">龙行伟</h1>
+                <h4 id="persona-tag" contenteditable="true">Java开发攻城狮 / 互联网 / 全职</h4>
             </div>
             <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">姓名</label><span class="label-value">XXX</span></li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">龙行伟</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">毕业院校</label><span class="label-value">北京邮电大学</span></li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">重庆三峡学院</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+                        <label class="left-label" contenteditable="true">工作年限</label><span class="label-value" contenteditable="true">一年以上</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">182XXXXXXXX</span></li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">18983110075</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">邮箱</label><span class="label-value">crmrc2014@gmail.com</span></li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">xingweilon@gmail.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">个人主页</label><span class="label-value">exit-tixe.me</span></li>
-                    <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/ekCit</span></li>
+                        <label class="left-label" contenteditable="true">现居地</label><span class="label-value" contenteditable="true">重庆</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Python</label>
+                        <label class="left-label" contenteditable="true">主流框架</label>
                         <progress value="80" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">html/css</label>
+                        <label class="left-label" contenteditable="true">MyBatis</label>
                         <progress value="70" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">Javascript</label>
-                        <progress value="60" max="100"></progress>
-                    </li>
+                        <label class="left-label" contenteditable="true">MySQL/Oracle</label>
+                        <progress value="65.625" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">机器学习</label>
+                        <label class="left-label" contenteditable="true"><span style="display: inline !important;">html/css</span></label>
                         <progress value="60" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="stack-list">
+                    
+                    
                     <li>
-                        <label class="left-label">前端</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">后端</label><span class="label-value" contenteditable="true">SpringMVC、Spring、hibernate、MyBatis、MySQL、Restful、git、svn<br></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                     <li>
-                        <label class="left-label">后端</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">其它</label><span class="label-value">我全都是瞎写的。</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">前端</label><span class="label-value" contenteditable="true">jQuery、js、html、css</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                 </ul>
             </div>
 
             <div class="code info-unit">
-                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <div class="weixin">
-                    <img src="static/image/weixin.png" alt="">
+                    <img src="https://i.loli.net/2018/06/17/5b265feb33ca4.jpg" alt="">
 
                 </div>
             </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div>
+            
         </div>
         <div class="main">
             <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京邮电大学 - 网络工程专业（本科）2012-2017</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <h3 contenteditable="true">重庆三峡学院 - 物联网工程专业（本科）2013-2017</h3>
+                        <p contenteditable="true">
+                            本科学习Java程序设计/软件工程/数据库导论/操作系统原理/计算机导论
                         </p>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京创客空间－实习生（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>实验楼－课程内容（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                </ul class="experience-list">
-            </div>
-            <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3>基于 Qt 5 的文本编辑器</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <br/>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>基于 Flask 的主机监视系统</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>基于 Live2D 与 clmtrackr 的山寨 Facerig</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>如果项目太少，可以在实验楼上找项目做啊:D</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">北京思特奇信息技术股份有限公司－软件开发工程师&nbsp; 2016.12 - 至今</h3>
+                        <p contenteditable="true"></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                 </ul>
             </div>
-            <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">项目经验</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>小学生作文二等奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
+                        <h3 contenteditable="true">iaas云管理平台</h3>
+                        <p contenteditable="true"><div><br></div><div>项目描述：接入运化iaas资源、saas资源、paas资源，包括用户管理、应用管理、服务管理、计算管理、监控管理、接口管理。实现统一管理、统一分配、统一调度、统一监控、统一部署、统一备份、统一运营。用户自我服务，自动按需扩展，达到资源最大利用率，降低成本。</div><div><span style="display: inline !important;"><br></span></div><div><span style="display: inline !important;">职责：</span><br></div><div><div><span style="display: inline !important;">&nbsp; &nbsp; &nbsp; 对集群下虚拟机、宿主机、物理机性能报表进行改造，达到数据准确</span></div><div>&nbsp; &nbsp; &nbsp; 对现有功能进行优化改造<br><div>&nbsp; &nbsp; &nbsp; 虚拟化接入、接口开发、联调<br>
+                        <div>&nbsp; &nbsp; &nbsp; 上线部署、回归测试、<span style="display: inline !important;">&nbsp;bug修复、性能优化、</span><span style="display: inline !important;">紧急回退</span></div><div><br></div></div></div></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
+                        <h3 contenteditable="true">监控平台</h3>
+                        <p contenteditable="true"><div><span style="display: inline !important;">项目描述：对集群下面所有的资源，包括物理机、宿主机、虚拟机、中间件、数据库等设备相关指标进行实时采集、监控。对异常指标告警预警</span><br></div><div><br></div><div>职责：</div><div>&nbsp; &nbsp; &nbsp; 对现有虚拟机/物理机/宿主机性能指标如CPU、内存、IO速率等关键指标监控开&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 发、优化，提高采集数据准确性<br>&nbsp; &nbsp; &nbsp; 采集指标告警开发、与用户讨论告警阈值，做到有问题及时告警，避免错误告警</div><div>&nbsp; &nbsp; &nbsp; 基础Linux脚本编写、监控日常巡检、监控告警紧急问题处理<br>&nbsp; &nbsp; &nbsp; 根据用户需求，针对性能指标统计，实现每月/季度运营数据<span style="display: inline !important;">可视化</span><br>&nbsp; &nbsp; &nbsp; 根据接口文档开发接口、测试接口、配合联调、编写接口文档</div><div><br></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>这一行也是为了凑版面</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li>                     
+                        <h3 contenteditable="true">云管理平台流程</h3>
+                        <p contenteditable="true"><div><br></div>项目描述： 由传统纸质化延边为自动化流程审批，实现流程审批自动化、规范化，极大降低人工成本，提高资源申请效率以及督办效率<div><br></div><div>职责：<br><div>&nbsp; &nbsp; &nbsp; 对流程运营数据进行统计实现可视化<br>&nbsp; &nbsp; &nbsp; 流程资源申请、资源伸缩、资源回收开发<br>&nbsp; &nbsp; &nbsp; 流程创建接口开发、维护、接口文档编写<br>&nbsp; &nbsp; &nbsp; 用户需求讨论、流程改造、紧急问题处理<div><br></div></div></div></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                </ul>
             </div>
+            
             <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <p contenteditable="true"><div><span style="display: inline !important;">&nbsp; &nbsp;&nbsp;</span></div><div><span style="display: inline !important;">&nbsp; &nbsp; 较好的沟通理解能力、较好的执行力</span><br></div><div>&nbsp; &nbsp; 快速学习、应用新技术用于解决实际问题、快速上手框架</div><div>&nbsp; &nbsp; 遇到问题能快速通过stackoverflow/csdn等社区获取解决方案</div></p>
             </div>
         </div>
     </div>
-</body>
 
-</html>
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>
